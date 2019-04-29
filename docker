@@ -33,7 +33,9 @@ RUN apt-get update -y && apt-get install -y --no-install-recommends \
     openssh-client \
     pdftk \
     pkg-config \
-    python \
+	python-pip \
+    python2.7 \
+    python2.7-dev \
     rsync \
     screen \
     tabix \
@@ -94,9 +96,6 @@ RUN apt-get update && apt-get install -y --no-install-recommends locales && \
     libx11-dev \
     libxt-dev \
     perl \
-	python-pip \
-    python2.7 \
-    python2.7-dev \
     tcl8.5-dev \
     tk8.5-dev \
     texinfo \
